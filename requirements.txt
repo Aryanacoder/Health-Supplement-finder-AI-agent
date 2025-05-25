@@ -1,0 +1,27 @@
+# Core dependencies
+fastapi>=0.95.0
+uvicorn[standard]>=0.22.0
+streamlit>=1.22.0
+
+# Web scraping
+requests>=2.28.2
+beautifulsoup4>=4.11.2
+lxml>=4.9.2
+selenium
+webdriver-manager
+retrying
+
+# AI/LLM components
+langchain>=0.0.267
+langchain-huggingface>=0.0.1
+python-dotenv>=1.0.0
+
+# Data handling
+pandas>=1.5.3
+tinydb>=4.7.1
+
+# Visualization
+altair>=4.2.2
+
+# Utilities
+pydantic>=1.10.7
